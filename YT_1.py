@@ -70,7 +70,7 @@ def analyze_sentiment(comments):
 
 # Function to extract top comments
 def get_top_comments(video_id):
-    youtube = build("youtube", "v3", developerKey="AIzaSyBWLxLPQPF_B01KQ4-VcTfzY9i_2Ix1uSM")
+    youtube = build("youtube", "v3", developerKey="Your_API_ID (Youtube V3 from google cloud)")
 
     comments = []
     nextPageToken = None
